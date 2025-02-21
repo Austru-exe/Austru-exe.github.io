@@ -137,9 +137,9 @@ button:hover {
 .content1 #content-area {
   overflow-y: auto; /* 垂直方向のスクロールバーを表示 */
   overflow-x: hidden;
-  max-height: 80vh; /* contentAreaの高さを画面の80%に制限 */
+  height: 93%; /* contentAreaの高さを画面の80%に制限 */
   flex: 4; /* content-areaの幅を調整 */
-  padding: 20px;
+  padding: 0px 20px;
   overflow-wrap: break-word; /* テキストを折り返す */
   white-space: normal; /* 折り返しを有効にする */
   color: white;
@@ -171,7 +171,8 @@ button:hover {
 .content1 .blog-content {
   border: 1px solid #ccc;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 10px;
   overflow-wrap: break-word; /* テキストを折り返す */
 }
