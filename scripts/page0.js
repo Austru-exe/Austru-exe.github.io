@@ -44,10 +44,8 @@ HP本体の大枠作成
 </textarea>
   <div class="text-container">
     <p>エンジニア歴1年目<br>
-    休日は夜のほうが早くコードを書けるような気がして<br>
-    気が付くと朝になっている<br>
-    そんな感じの日記帳<br>
     現在javascriptを勉強中
+    制作物を掲載していきます
     </p>
   </div>
 </div>
