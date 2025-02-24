@@ -44,7 +44,7 @@ HP本体の大枠作成
 </textarea>
   <div class="text-container">
     <p>エンジニア歴1年目<br>
-    現在javascriptを勉強中
+    現在javascriptを勉強中<br>
     制作物を掲載していきます
     </p>
   </div>
