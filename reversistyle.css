@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: gray;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(8, 40px);
+  width: 320px;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.black {
+  background-color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.white {
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.result {
+  margin: 10px;
+  font-weight: bold;
+  color: darkblue;
+  height: 1.5em; /* 高さを固定しておくことでズレを防ぐ */
+}
+
+.hint {
+  width: 30px;
+  height: 30px;
+  border: 2px dotted yellow;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
