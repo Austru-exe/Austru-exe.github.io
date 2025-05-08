@@ -8,6 +8,9 @@
   view.innerHTML = `
   <h3>制作物一覧</h3>
 <button id="opengame1" style="display:inline;">B100風ゲーム</button><div style="display:inline;">……既存のゲームシステムを記憶から再現　使用言語:javascript</div>
+<br>
+<button onclick="location.href='reversi.html'" style="display:inline;">1人用オセロ</button><div style="display:inline;">……AWSの練習がてら作成　使用言語:javascript</div>
+
 `;
 
   content2.appendChild(view);
@@ -15,6 +18,9 @@
 
   const og1 = document.getElementById("opengame1");
   og1.addEventListener('click',() => {opengame1()});
+
+  const og2 = document.getElementById("opengame2");
+  og2.addEventListener('click',() => {opengame2()});
 
   function opengame1() {
     document.querySelector(".content2_1").style.display = "block";
