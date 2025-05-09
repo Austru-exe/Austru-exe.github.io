@@ -84,7 +84,7 @@ function saveGameResult() {
   };
 
   // Lambda URLにPOSTリクエストを送信
-  const saveAPI_URL = 'https://eqhy4lg47eze5bgrebpolr2miq0cvqgi.lambda-url.ap-northeast-1.on.aws/';
+  const saveAPI_URL = 'https://omtxu2vtinbqjlx2fi5hssqfvq0wsgis.lambda-url.ap-northeast-1.on.aws/';
 
   fetch(saveAPI_URL, {
     method: 'POST',
