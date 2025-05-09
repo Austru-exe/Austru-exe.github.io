@@ -84,7 +84,9 @@ function saveGameResult() {
   };
 
   // Lambda URLにPOSTリクエストを送信
-  fetch('arn:aws:lambda:ap-northeast-1:191669941148:function:saveOthelloResult', {
+  const saveAPI_URL = 'https://eqhy4lg47eze5bgrebpolr2miq0cvqgi.lambda-url.ap-northeast-1.on.aws/';
+
+  fetch(saveAPI_URL, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -99,7 +101,6 @@ function saveGameResult() {
     console.error('結果の保存に失敗しました:', err);
   });
 }
-
 
 function handleClick(e) {
   const x = parseInt(e.currentTarget.dataset.x);
@@ -175,7 +176,6 @@ function showResult() {
 
   resultDisplay.textContent = `ゲーム終了！ 黒: ${blackCount}, 白: ${whiteCount} → ${winner}`;
 }
-
 
 function checkGameEndOrPass() {
   if (hasValidMove(currentTurn)) {
