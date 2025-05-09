@@ -1,3 +1,8 @@
+const resultContainer = document.getElementById('results');
+
+// Lambda関数のURL（CORS許可しておくこと！）
+const API_URL = 'https://eqhy4lg47eze5bgrebpolr2miq0cvqgi.lambda-url.ap-northeast-1.on.aws/';
+
 fetch(API_URL, {
   method: "GET",
   mode: "cors",
