@@ -88,6 +88,7 @@ function saveGameResult() {
 
   fetch(saveAPI_URL, {
     method: 'POST',
+    mode: "cors",
     headers: {
       'Content-Type': 'application/json'
     },
