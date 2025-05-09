@@ -19,9 +19,6 @@
   const og1 = document.getElementById("opengame1");
   og1.addEventListener('click',() => {opengame1()});
 
-  const og2 = document.getElementById("opengame2");
-  og2.addEventListener('click',() => {opengame2()});
-
   function opengame1() {
     document.querySelector(".content2_1").style.display = "block";
     document.querySelector(".content2").style.display = "none";
