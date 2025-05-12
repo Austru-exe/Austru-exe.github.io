@@ -36,11 +36,15 @@ body {
   height: 30px;
 }
 
-.results {
+.result {
   margin: 10px;
   font-weight: bold;
   color: darkblue;
   height: 1.5em; /* 高さを固定しておくことでズレを防ぐ */
+}
+
+.results {
+  justify-content: center;
 }
 
 .hint {
