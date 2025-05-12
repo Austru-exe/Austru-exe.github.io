@@ -36,7 +36,9 @@ fetch(API_URL, {
     resultContainer.innerHTML = '';
     resultContainer.appendChild(table);
   })
-  .catch(err => {
-    console.error('取得失敗:', err);
-    resultContainer.textContent = '結果の取得に失敗しました。';
-  });
+.catch(err => {
+  console.error('取得失敗:', err);
+  console.log('エラー詳細:', err.message); // より詳細なエラーメッセージを出力
+  resultContainer.textContent = '結果の取得に失敗しました。詳細はコンソールをご覧ください。';
+});
+
