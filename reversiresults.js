@@ -6,6 +6,7 @@ const API_URL = 'https://edbfqdrd3dge5t76s7jg2xwxmm0pzmqu.lambda-url.ap-northeas
 fetch(API_URL, {
   method: "GET",
   mode: "cors",
+  credentials: "omit", // Cookieや認証情報を送らないようにする
   headers: {
     "Content-Type": "application/json"
   }
