@@ -10,6 +10,7 @@
 <button id="opengame1" style="display:inline;">B100風ゲーム</button><div style="display:inline;">……既存のゲームシステムを記憶から再現　使用言語:javascript</div>
 <br>
 <button onclick="location.href='reversi.html'" style="display:inline;">1人用オセロ</button><div style="display:inline;">……AWSの練習がてら作成　使用言語:javascript</div>
+<button onclick="location.href='trump/index.html'" style="display:inline;">トランプいろいろ</button><div style="display:inline;">……Reactの練習がてら作成　使用言語:React+js</div>
 
 `;
 
@@ -25,3 +26,4 @@
   }
 
 })();
+
